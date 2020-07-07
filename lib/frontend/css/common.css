@@ -1,4 +1,4 @@
-.edit-post-visual-editor.editor-styles-wrapper .wp-block-gallery, .sv100_sv_content_wrapper article .wp-block-gallery
+.edit-post-visual-editor.editor-styles-wrapper .wp-block-gallery, .sv100_sv_content_wrapper article .wp-block-gallery:not(.alignwide):not(.alignfull)
 {
 	max-width:var( --sv100_sv_common-max-width-text );
 }
