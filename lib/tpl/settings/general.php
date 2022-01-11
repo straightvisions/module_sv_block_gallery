@@ -3,6 +3,11 @@
 		<h2><?php _e('General', 'sv100'); ?></h2>
 		<div class="sv_setting_flex">
 			<?php
+				echo $module->get_setting( 'spacing' )->form();
+			?>
+		</div>
+		<div class="sv_setting_flex">
+			<?php
 				echo $module->get_setting( 'margin' )->form();
 				echo $module->get_setting( 'padding' )->form();
 			?>

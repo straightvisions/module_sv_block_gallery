@@ -16,6 +16,11 @@
 		}
 
 		protected function load_settings(): sv_block_gallery {
+			$this->get_setting( 'spacing' )
+				->set_title( __( 'Spacing', 'sv100' ) )
+				->set_default_value(16)
+				->load_type( 'number' );
+
 			$this->get_setting( 'margin' )
 				->set_title( __( 'Margin', 'sv100' ) )
 				->set_is_responsive(true)

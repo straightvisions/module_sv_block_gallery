@@ -2,3 +2,6 @@
 {
 	max-width:var( --sv100_sv_common-max-width-text );
 }
+.wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:not(#individual-image){
+	margin-bottom:0;
+}
