@@ -5,3 +5,8 @@
 .wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:not(#individual-image){
 	margin-bottom:0;
 }
+
+.editor-styles-wrapper .wp-block-gallery.is-cropped picture, .wp-block-gallery.is-cropped picture{
+	width:100%;
+	height:100%;
+}
