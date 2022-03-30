@@ -1,3 +1,6 @@
+.editor-styles-wrapper .wp-block-gallery, .wp-block-gallery{
+	gap: 0 !important; /* Hotfix until Gap is properly supported in Gutenberg */
+}
 .editor-styles-wrapper .wp-block-gallery, .wp-block-gallery:not(.alignwide):not(.alignfull)
 {
 	max-width:var( --sv100_sv_common-max-width-text );
