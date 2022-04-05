@@ -13,3 +13,6 @@
 	width:100%;
 	height:100%;
 }
+body .wp-block-gallery.has-nested-images figure.wp-block-image figcaption{
+	line-height:1.5;
+}
