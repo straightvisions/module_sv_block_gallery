@@ -16,5 +16,5 @@ body .wp-block-gallery.has-nested-images figure.wp-block-image figcaption{
 	line-height:1.5;
 }
 .wp-block-gallery {
-	--wp--style--gallery-gap-default: var(--wp--custom--sv-spacing);
+	--wp--style--gallery-gap-default: 16px;
 }
