@@ -1,6 +1,3 @@
-.editor-styles-wrapper .wp-block-gallery, .wp-block-gallery{
-	gap: 0 !important; /* Hotfix until Gap is properly supported in Gutenberg */
-}
 .wp-block-gallery.has-nested-images.is-cropped{
 	align-items:stretch;
 }
