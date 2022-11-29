@@ -15,3 +15,6 @@ body .wp-block-gallery.has-nested-images figure.wp-block-image figcaption{
 .wp-block-gallery {
 	--wp--style--gallery-gap-default: 16px;
 }
+.wp-block-gallery .wp-block-image{
+	padding:0 !important;
+}
