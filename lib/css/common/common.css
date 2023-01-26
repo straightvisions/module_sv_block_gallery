@@ -18,3 +18,6 @@ body .wp-block-gallery.has-nested-images figure.wp-block-image figcaption{
 .wp-block-gallery .wp-block-image{
 	padding:0 !important;
 }
+.wp-block-gallery.has-nested-images figure.wp-block-image>a{
+	flex-grow:0; /* vertically center images */
+}
